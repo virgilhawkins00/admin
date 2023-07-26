@@ -22,7 +22,7 @@ const ChartBox = (props: Props) => {
         </div>
         <h1>{props.number}</h1>
         <Link to="/" style={{ color: props.color }}>
-          View all
+          Ver tudo
         </Link>
       </div>
       <div className="chartInfo">

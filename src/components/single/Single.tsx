@@ -72,7 +72,7 @@ const Single = (props: Props) => {
         )}
       </div>
       <div className="activities">
-        <h2>Latest Activities</h2>
+        <h2>Atividades Recentes</h2>
         {props.activities && (
           <ul>
             {props.activities.map((activity) => (
